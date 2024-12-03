@@ -1,0 +1,26 @@
+{
+  "name": "test-rescure",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --extensions \".ts,.js\" --out-dir dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@flashbots/ethers-provider-bundle": "^1.0.0",
+    "@metamask/detect-provider": "^2.0.0",
+    "@mycrypto/eth-scan": "^3.5.3",
+    "axios": "^1.7.2",
+    "ethers": "^6.13.1",
+    "flashbots": "^1.0.0",
+    "web3": "^4.11.0"
+  }
+}
